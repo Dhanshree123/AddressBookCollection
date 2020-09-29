@@ -76,7 +76,7 @@ public class AddressBookMain {
 					 flag = false;
 				}
 				
-				
+				break;
 		   case 2:
 			   AddressBookList();
 			   System.out.println("Enter the name of address book to add contact");
@@ -86,7 +86,7 @@ public class AddressBookMain {
 		       firstName = sc.next();
 			   a2.editContactDetails(firstName);
 			   System.out.println("Contact Details Editted");
-			   
+			   break;
 			  
 		   case 3:
 			   AddressBookList();
@@ -97,7 +97,7 @@ public class AddressBookMain {
 			   firstName = sc.next();
 			   a3.deleteContactDetails(firstName);
 			   System.out.println("Contact Details Deleted");
-			   
+			   break;
 			   
 		   case 4:
 			   
@@ -106,6 +106,7 @@ public class AddressBookMain {
 			   AddressBook obj=new AddressBook();
 			   AddressBook.hm.put(name, obj);
 			   System.out.println("Address Book Created");
+			   break;
 		   }
 			
 			 
