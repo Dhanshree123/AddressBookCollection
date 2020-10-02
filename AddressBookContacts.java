@@ -120,7 +120,7 @@ public class AddressBookContacts {
 	  }
 	  
 	  public String toString() {
-		  return "First name : "+firstName+" Last name : "+lastName;
+		  return "First name : "+firstName+" Last name : "+lastName+" City : "+city+" State : "+state+" Zip : " +zip;
 	  }
 	  
 	  
